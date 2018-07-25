@@ -8,7 +8,7 @@ bot = discord.Client()
 master = 'dV00-$@conn'
 
 def check(m):
-	return m == '344031555544547328'
+	return m == '344031555544547328' # CHANGE ID TO YOUR DISCORD ID
 
 @bot.event
 async def on_message(message):
