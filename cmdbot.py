@@ -45,4 +45,4 @@ async def on_message(message):
 			print(' -[MS]')
 			await bot.send_message(message.channel, 'Output:```'+ subprocess.check_output('ping ' + message.content.split('$ms ')[1], shell=True).decode('utf-8') +'```')
 
-bot.run('NDcxMjI0MDMwNTE5NzU0NzY1.DjjAPw.MYXnG-sIiT5cBCa_czNP0Uj8iJw')
+bot.run('')
